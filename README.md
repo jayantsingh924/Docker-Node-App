@@ -33,3 +33,6 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 11. docker run -p 3000:3000 -d --name node-app node_app_image
 5cf03b73ebe5303516cd2fd6cb749ef28cd6185fd5f39481562aae7b4d1861eb
 
+12. docker exec -it node-app bash
+
+13. exit
